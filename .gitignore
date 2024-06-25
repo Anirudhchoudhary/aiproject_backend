@@ -1,0 +1,4 @@
+.dockerignore
+.local.env
+Dockerfile
+node_modules
