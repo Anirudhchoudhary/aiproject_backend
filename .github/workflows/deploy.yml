@@ -22,5 +22,5 @@ jobs:
         key: ${{ secrets.EC2_KEY }}
         script: |
           cd /home/ubuntu/app
-          git pull origin main
+          git pull origin master
           # Add any additional commands here, e.g., restarting services
