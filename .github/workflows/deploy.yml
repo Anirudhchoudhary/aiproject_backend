@@ -22,5 +22,6 @@ jobs:
         key: ${{ secrets.EC2_KEY }}
         script: |
           cd /home/ubuntu/app
-          git pull origin master
-          # Add any additional commands here, e.g., restarting services
+          git clone https://github.com/Anirudhchoudhary/aiproject_backend.git
+          cd aiproject_backend
+          npm start
